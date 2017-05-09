@@ -37,7 +37,7 @@ chown keybox:keybox KeyBox-jetty/jetty/etc/keystore
 java -cp KeyBox-jetty/jetty/lib/jetty-util-X.X.X.vXXX.jar org.eclipse.jetty.util.security.Password S3xYF0t5!
  
 2016-03-01 03:32:03.055:INFO::main: Logging initialized @94ms
-XXXXXXX
+S3xYF0t5!
 OBF:uu1wxx151woj1ugo1uvkkuum1uh21w871x1h1uva
 MD5:a826e006a1d150cf79c96397163266ee
 ```
