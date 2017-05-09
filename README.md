@@ -42,10 +42,10 @@ OBF:uu1wxx151woj1ugo1uvkkuum1uh21w871x1h1uva
 MD5:a826e006a1d150cf79c96397163266ee
 ```
 
-Edit file KeyBox-jetty/jetty/etc/jetty-ssl-context.xml and add the hash.
+Edit the file "KeyBox-jetty/jetty/etc/jetty-ssl-context.xml" and add the hash.
 ```xml
-  <Set name="KeyStorePassword"><Property name="jetty.sslContext.keyStorePassword" deprecated="jetty.keystore.password" default="OBF:uu1wxx151woj1ugo1uvkkuum1uh21w871x1h1uva"/></Set>
-  <Set name="KeyManagerPassword"><Property name="jetty.sslContext.keyManagerPassword" deprecated="jetty.keymanager.password" default="OBF:uu1wxx151woj1ugo1uvkkuum1uh21w871x1h1uva"/></Set>
-  <Set name="TrustStorePassword"><Property name="jetty.sslContext.trustStorePassword" deprecated="jetty.truststore.password" default="OBF:uu1wxx151woj1ugo1uvkkuum1uh21w871x1h1uva"/></Set>
+<Set name="KeyStorePassword"><Property name="jetty.sslContext.keyStorePassword" deprecated="jetty.keystore.password" default="OBF:uu1wxx151woj1ugo1uvkkuum1uh21w871x1h1uva"/></Set>
+<Set name="KeyManagerPassword"><Property name="jetty.sslContext.keyManagerPassword" deprecated="jetty.keymanager.password" default="OBF:uu1wxx151woj1ugo1uvkkuum1uh21w871x1h1uva"/></Set>
+<Set name="TrustStorePassword"><Property name="jetty.sslContext.trustStorePassword" deprecated="jetty.truststore.password" default="OBF:uu1wxx151woj1ugo1uvkkuum1uh21w871x1h1uva"/></Set>
   ```
 Now we only need restart KeyBox and check with the browser that the new certificate is in use.
